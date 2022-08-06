@@ -1,0 +1,46 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}"/>
+
+<html>
+  <style>
+     
+      * {
+          box-sizing: border-box;
+          padding-top: 50px;
+        }
+        
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          padding-top: 20px;
+          height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          
+          display: table;
+          clear: both;
+        }
+        </style>
+
+<body>
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>CROP RECOMMENDATION</h2>
+          
+          <p>Crops are recommended based on soil, weather, humidity, rainfall, and other variables to increase agricultural output. It benefits not just farmers, but also the country and helps to keep food costs down.</p>
+           <a href="home" >CLICK TO PREDICT</a>
+           </div>
+    
+        <div class="column" style="background-color:#bbb;">
+          <h2>FERTILIZER RECOMMENDATION</h2>
+          <p>The application is generally limited to specific crops because of the global variability in these essential nutrients. Stability in fertilizer application, growth, and root growth rate increases crop fertility and crop production.</p>
+          <a href="fertilizer">CLICK TO PREDICT</a>
+        </div>
+      </div>
+</body>
+
+</html>

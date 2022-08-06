@@ -1,0 +1,100 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style2.css' %}"/>
+<html>
+    <head>
+        <title>RECOMMENDATION SYSTEM</title> </head>
+<style>
+h1{
+    padding-left: 500px;
+    padding-top:  100px; 
+}
+table{
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+td{
+    color: rgb(62, 33, 48);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+h1{
+    color: rgb(104, 103, 102);
+}
+</style>
+
+    <body class="sys">
+    <h1 style="padding-top: 100px;padding-left: 500px">CROP RECOMMENDATION SYSTEM</h1>
+    <div>
+    <form action="{% url 'result' %} ">
+        {% csrf_token %}
+        <table class="gabe">
+            <tr>
+                <td>
+                    NITROGEN(%)
+                </td>
+                <td>
+                    <input type='text' required name='NITROGEN'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PHOSPHORUS(%)
+                </td>
+                <td>
+                    <input type="text"   required name='PHOSPHORUS'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    POTASSIUM(%)
+                </td>
+                <td>
+                    <input type='text'  required name='POTASSIUM'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    TEMPERATURE(℃)
+                </td>
+                <td>
+                    <input type='text'  required name='TEMPERATURE'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    HUMIDITY(%)
+                </td>
+                <td>
+                    <input type='text'  required name='HUMIDITY'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ph(0-14)
+                </td>
+                <td>
+                    <input type='text'  required name='PH'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    RAINFALL(cms)
+                </td>
+                <td>
+                    <input type='text' required name='RAINFALL'>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center><input type="submit" name="" value="SUBMIT" class="subm"></center>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</div>
+<p class="outp">CROP NAME : {{ans}}</p>
+        
+</body>
+</html>

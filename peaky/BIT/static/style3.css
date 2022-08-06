@@ -1,0 +1,38 @@
+body{
+    background-image: url("image/crop_image2.jpg");
+    background-repeat: no-repeat;
+}
+/* .sys{
+    backdrop-filter: blur(10px);
+} */
+.gabe{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    left: calc(55% - 611px/2 - 0.5px);
+    top: calc(50% - 497px/2 - 0.5px);
+    
+    background: rgba(255, 253, 253, 0.767);
+    border-radius: 20px;
+
+}
+.subm{
+    border-radius: 5px;
+    font-size: 15px
+}
+.outp{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-shadow: 5px 0px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    align-self: center;
+    color: blue;
+    background: rgba(255, 253, 253, 0.767);
+    border-radius: 34px;
+    position: absolute;
+    width:400px;
+    height: 25px;
+    left: 540px;
+    top: 630px;
+}
