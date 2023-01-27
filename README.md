@@ -6,7 +6,7 @@ A crop recommendation system is a tool that provides farmers with specific recom
 
 2) To improve the efficiency and cost-effectiveness of crop production by providing farmers with recommendations that are based on real-time data and machine learning algorithms.
 
-3)To promote crop diversity and soil health by providing farmers with recommendations for a range of crop types and varieties, rather than relying on monoculture.
+3) To promote crop diversity and soil health by providing farmers with recommendations for a range of crop types and varieties, rather than relying on monoculture.
 
 4) To improve the overall sustainability of agriculture by providing farmers with recommendations for crops that are well-suited to the local environment and that require minimal inputs.
 
