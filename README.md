@@ -1,5 +1,5 @@
-# Crop-and-Fertilizer-Recommendation
-<break>
+# <h1>Crop-and-Fertilizer-Recommendation</h1>
+
 A crop recommendation system is a tool that provides farmers with specific recommendations for the type and variety of crops to grow on their farm, based on factors such as soil conditions, weather patterns, and market demand. The main objectives of a crop recommendation system are:
 
 To optimize crop yields and quality by providing farmers with recommendations for the most suitable crops to grow in their specific conditions.
